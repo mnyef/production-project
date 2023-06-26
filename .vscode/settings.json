@@ -1,4 +1,11 @@
 {
   "i18n-ally.localesPaths": ["public/locales", "src/shared/config/i18n"],
-  "cSpell.words": ["languagedetector", "reduxjs", "testid"]
+  "cSpell.words": [
+    "languagedetector",
+    "LOCALSTORAGE",
+    "reduxjs",
+    "testid",
+    "Войти",
+    "Выйти"
+  ]
 }
