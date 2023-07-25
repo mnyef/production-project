@@ -12,10 +12,11 @@ interface StoreProviderProps {
 }
 
 export const StoreProvider = (props: StoreProviderProps) => {
-    const { 
-      children, 
-      initialState, 
-      asyncReducers } = props;
+    const {
+        children,
+        initialState,
+        asyncReducers,
+    } = props;
 
     const navigate = useNavigate();
 

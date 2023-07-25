@@ -3,10 +3,10 @@ import { memo, useMemo, useState } from 'react';
 import { ThemeSwitcher } from 'shared/UI/ThemeSwitcher';
 import { LangSwitcher } from 'shared/UI/LangSwitcher/LandSwitcher';
 import { Button, ButtonSize, ButtonTheme } from 'shared/UI/Button/Button';
+import { useSelector } from 'react-redux';
 import { SidebarItem } from '../SidebarItem/SidebarItem';
 import { getSidebarItems } from '../../model/selectors/getSidebarItems';
 import cls from './Sidebar.module.scss';
-import { useSelector } from 'react-redux';
 
 interface SidebarProps {
   className?: string;
@@ -28,7 +28,7 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
     );
 
     return (
-        <div
+        <menu
             data-testid="sidebar"
             className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
                 className,
@@ -49,6 +49,6 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
                 <ThemeSwitcher />
                 <LangSwitcher short={collapsed} className={cls.lang} />
             </div>
-        </div>
+        </menu>
     );
 });
