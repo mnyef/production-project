@@ -17,7 +17,7 @@
       "title": "Javascript news",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
-      "views": 1022,
+      "views": 10232,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -88,7 +88,7 @@
       "id": "2",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+      "img": "https://www.codingtxt.com/media/blog_images/ruby_banner.png",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -112,12 +112,12 @@
       "id": "3",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+      "views": 1622,
+      "createdAt": "02.05.2021",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -134,11 +134,11 @@
     },
     {
       "id": "4",
-      "title": "Python news",
+      "title": "Python news today",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 3032,
+      "createdAt": "26.07.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -158,11 +158,11 @@
     },
     {
       "id": "5",
-      "title": "Kotlin news",
+      "title": "Kotlin news today",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61wLTRUpyZL.png",
+      "views": 522,
+      "createdAt": "20.03.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -182,14 +182,14 @@
     },
     {
       "id": "6",
-      "title": "Python news",
+      "title": "Python news tomorrow",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+      "views": 87,
+      "createdAt": "06.01.2019",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -206,11 +206,11 @@
     },
     {
       "id": "7",
-      "title": "Kotlin news",
+      "title": "Kotlin news tomorrow",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 102,
+      "createdAt": "26.12.2018",
       "userId": "1",
       "type": [
         "IT"
@@ -230,14 +230,14 @@
     },
     {
       "id": "8",
-      "title": "Python news",
+      "title": "Python news yesterday",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+      "views": 3874,
+      "createdAt": "16.05.2023",
       "userId": "1",
       "type": [
-        "IT"
+        "ECONOMICS"
       ],
       "blocks": [
         {
@@ -254,14 +254,14 @@
     },
     {
       "id": "9",
-      "title": "Kotlin news",
+      "title": "Kotlin news yesterday",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 2798,
+      "createdAt": "15.11.2023",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -278,11 +278,11 @@
     },
     {
       "id": "10",
-      "title": "Python news",
-      "subtitle": "Что нового в JS за 2022 год?",
+      "title": "Python news yay",
+      "subtitle": "Что нового в JS за 2020 год?",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 456,
+      "createdAt": "31.12.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -302,11 +302,11 @@
     },
     {
       "id": "11",
-      "title": "Kotlin news",
+      "title": "Kotlin news yay",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "views": 7574,
+      "createdAt": "12.08.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -326,11 +326,11 @@
     },
     {
       "id": "12",
-      "title": "Python news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "title": "Python news cmon",
+      "subtitle": "Что нового в JS за 2054 год?",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61wLTRUpyZL.png",
+      "views": 843,
+      "createdAt": "19.03.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -350,14 +350,14 @@
     },
     {
       "id": "13",
-      "title": "Kotlin news",
+      "title": "Kotlin news code",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+      "views": 1023,
+      "createdAt": "27.04.2020",
       "userId": "1",
       "type": [
-        "IT"
+        "ECONOMICS"
       ],
       "blocks": [
         {
@@ -374,11 +374,11 @@
     },
     {
       "id": "14",
-      "title": "Python news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "title": "Python news pork",
+      "subtitle": "Что нового в JS за 2024 год?",
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png",
+      "views": 6432,
+      "createdAt": "16.07.2024",
       "userId": "1",
       "type": [
         "IT"
@@ -398,11 +398,11 @@
     },
     {
       "id": "15",
-      "title": "Kotlin news",
-      "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "title": "Kotlin news JS",
+      "subtitle": "Что нового в JS за 2026 год?",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/61wLTRUpyZL.png",
+      "views": 8341,
+      "createdAt": "06.06.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -422,14 +422,14 @@
     },
     {
       "id": "16",
-      "title": "Python news",
+      "title": "Python news old",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg",
+      "views": 2421,
+      "createdAt": "23.01.2018",
       "userId": "1",
       "type": [
-        "IT"
+        "ECONOMICS"
       ],
       "blocks": [
         {
@@ -446,14 +446,14 @@
     },
     {
       "id": "17",
-      "title": "Kotlin news",
+      "title": "Kotlin news old",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://www.codingtxt.com/media/blog_images/ruby_banner.png",
+      "views": 1256,
+      "createdAt": "09.09.2018",
       "userId": "1",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
