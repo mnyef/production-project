@@ -2,24 +2,20 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import { memo, useCallback } from 'react';
 import { ArticleDetails, ArticleList } from 'entities/Article';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { Text, TextSize } from 'shared/UI/Text/Text';
 import { CommentList } from 'entities/Comment';
-import {
-    DynamicModuleLoader,
-    ReducersList,
-} from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useDispatch, useSelector } from 'react-redux';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { AddCommentForm } from 'features/addCommentForm';
+import { Button, ButtonTheme } from 'shared/UI/Button/Button';
+import { RoutePath } from 'shared/config/routeConfig/routeConfig';
 import { Page } from 'widgets/Page/Page';
+import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
 import { fetchCommentsByArticleId } from '../../model/services/fetchCommentsByArticleId/fetchCommentsByArticleId';
-import {
-    addCommentForArticle,
-} from '../../model/services/addCommentForArticle/addCommentForArticle';
-import {
-    getArticleComments,
-} from '../../model/slices/articleDetailsCommentsSlice';
+import cls from './ArticleDetailsPage.module.scss';
+import { articleDetailsCommentsReducer, getArticleComments } from '../../model/slices/articleDetailsCommentsSlice';
 import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
 import {
     articleDetailsPageRecommendationsReducer,
@@ -30,11 +26,10 @@ import {
     fetchArticleRecommendations,
 } from '../../model/services/fetchArticleRecommendations/fetchArticleRecommendations';
 import { articleDetailsPageReducer } from '../../model/slices';
-import cls from './ArticleDetailsPage.module.scss';
 import { ArticleDetailsPageHeader } from '../ArticleDetailsPageHeader/ArticleDetailsPageHeader';
 
 interface ArticleDetailsPageProps {
-  className?: string;
+    className?: string;
 }
 
 const reducers: ReducersList = {
@@ -85,8 +80,8 @@ const ArticleDetailsPage = (props: ArticleDetailsPageProps) => {
                     target="_blank"
                 />
                 <Text
-                    className={cls.commentTitle}
                     size={TextSize.L}
+                    className={cls.commentTitle}
                     title={t('Комментарии')}
                 />
                 <AddCommentForm onSendComment={onSendComment} />
