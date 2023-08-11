@@ -7,8 +7,8 @@ import React, {
     useRef,
     useState,
 } from 'react';
-import { Portal } from 'shared/UI/Portal/Portal';
 import { useTheme } from 'app/provider/ThemeProvider';
+import { Portal } from '../Portal/Portal';
 import cls from './Modal.module.scss';
 
 interface ModalProps {

@@ -1,5 +1,6 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { Input } from 'shared/UI/Input/Input';
+import { Input } from '../Input/Input';
 
 export default {
     title: 'shared/Input',

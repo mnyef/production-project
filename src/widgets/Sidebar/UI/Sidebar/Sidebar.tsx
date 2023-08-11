@@ -1,6 +1,6 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { memo, useMemo, useState } from 'react';
-import { ThemeSwitcher } from 'shared/UI/ThemeSwitcher';
+import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'shared/UI/LangSwitcher/LandSwitcher';
 import { Button, ButtonSize, ButtonTheme } from 'shared/UI/Button/Button';
 import { useSelector } from 'react-redux';
