@@ -1,6 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
-import { Select } from 'shared/UI/Select/Select';
 import { memo, useCallback } from 'react';
 import { ListBox } from 'shared/UI/ListBox/ListBox';
 import { Country } from '../../model/types/country';
@@ -41,7 +40,7 @@ export const CountrySelect = memo(
                 label={t('Укажите страну')}
                 items={options}
                 readonly={readonly}
-                direction="top"
+                direction="top right"
             />
         );
     },
